@@ -24,7 +24,7 @@ submit.addEventListener("click", function(){
     })
 
 req.open("GET", "https://favqs.com/api/quotes/?filter="+words.value);
-req.setRequestHeader("Authorization", 'Token token="02be8a807f89b2e9405d27ab904d26a3"');
+req.setRequestHeader("Authorization", 'Token token=""');
 req.send()
 });
 

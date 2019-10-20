@@ -26,7 +26,7 @@ submit.addEventListener("click", function(){
         
         }
     })
-req3.open("GET", "http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist="+input.value+"&api_key=31744144d1f0d44dac39e3dd9f62eacd&format=json");
-req3.setRequestHeader("Authorization", 'Token token="31744144d1f0d44dac39e3dd9f62eacd"');
+req3.open("GET", "http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist="+input.value+"&api_key=&format=json");
+req3.setRequestHeader("Authorization", 'Token token=""');
 req3.send()
 });
